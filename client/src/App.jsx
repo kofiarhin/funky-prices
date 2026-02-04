@@ -14,7 +14,7 @@ class App extends Component {
   getHealth = async () => {
     try {
       const url = import.meta.env.VITE_API_URL;
-      const res = await fetch(`${url}/health`);
+      const res = await fetch(url);
       this.setState({ status: res.ok ? "online" : "offline" });
     } catch {
       this.setState({ status: "offline" });
