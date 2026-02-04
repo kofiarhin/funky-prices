@@ -30,3 +30,20 @@ body {
 input {
   font-size: 15px;
 }
+
+//typography
+.heading {
+  font-size: 3rem;
+  margin: 1rem 0rem;
+  &.center {
+    text-align: center;
+  }
+}
+
+.text {
+  font-size: 1.2rem;
+}
+
+.text-center {
+  text-align: center;
+}
