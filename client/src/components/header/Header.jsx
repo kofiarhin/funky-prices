@@ -6,7 +6,7 @@ const Header = ({ status }) => {
       <div className="header-container">
         <div className="header-brand">
           <span className="brand-dot"></span>
-          <h1 className="brand-logo">tripmerge</h1>
+          <h1 className="brand-logo">FunkyPrices</h1>
         </div>
 
         <nav className="header-nav">
